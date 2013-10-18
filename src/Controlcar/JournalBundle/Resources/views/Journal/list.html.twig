@@ -1,0 +1,23 @@
+{% extends 'ControlcarJournalBundle::mainControlcar.html.twig' %}
+
+{% block content %}
+    <table class="table table-striped" data-provides="rowlink">
+        <caption>Acts</caption>
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>head 1</th>
+            <th>head 2</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for act in acts %}
+            <tr>
+                <td><a href="1.html">{{ loop.index }}</a></td>
+                <td>{{ act.name }}</td>
+                <td>{{ act.car.name }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

@@ -1,0 +1,35 @@
+controlcar_journal_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: ControlcarJournalBundle:Default:index }
+
+controlcar_journal_list:
+    pattern: /journal
+    defaults: { _controller: ControlcarJournalBundle:Journal:list }
+
+controlcar_journal_add_act:
+    pattern: /add
+    defaults: { _controller: ControlcarJournalBundle:Journal:addAct }
+
+controlcar_journal_delete_act:
+    pattern: /delete/{id}
+    defaults: { _controller: ControlcarJournalBundle:Journal:deleteAct }
+    requirements:
+            id:  \d+
+
+controlcar_journal_show_act:
+    pattern: /act/{id}
+    defaults: { _controller: ControlcarJournalBundle:Journal:showAct }
+    requirements:
+            id:  \d+
+
+controlcar_journal_edit_act:
+    pattern: /editact/{id}
+    defaults: { _controller: ControlcarJournalBundle:Journal:editAct }
+    requirements:
+            id:  \d+
+
+controlcar_dublicate_act:
+    pattern: /duplicateact/{id}
+    defaults: { _controller: ControlcarJournalBundle:Journal:createDuplicateAct }
+    requirements:
+            id:  \d+

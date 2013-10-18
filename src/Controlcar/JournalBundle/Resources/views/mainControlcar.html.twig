@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>{% block title %}Test Application{% endblock %}</title>
+
+    {% block stylesheets %}
+        {% stylesheets 'bundles/controlcarjournal/css/*' %}
+            <link rel="stylesheet" href="{{ asset_url }}" />
+        {% endstylesheets %}
+    {% endblock %}
+
+
+</head>
+<body>
+
+<div class="container">
+{% block container %}
+
+    {% block menu %}
+        <div class="navbar navbar-static-top navbar-inverse">
+            <div class="navbar-inner">
+                <ul class="nav">
+                    <li><a href="#">List</a></li>
+                    <li><a href="#">Add Act</a></li>
+                    <li><a href="#">Static</a></li>
+                </ul>
+            </div>
+        </div>
+        <br/>
+    {% endblock %}
+
+    {% block content%}
+
+    {% endblock %}
+
+{% endblock %}
+</div>
+
+{% block footer %}
+    footer
+{% endblock %}
+
+{% block javascripts %}
+    {% javascripts '@ControlcarJournalBundle/Resources/public/js/*' %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}
+
+</body>
+</html>

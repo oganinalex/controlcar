@@ -1,0 +1,4 @@
+controlcar_journal:
+    resource: "@ControlcarJournalBundle/Resources/config/routing.yml"
+    prefix:   /
+
