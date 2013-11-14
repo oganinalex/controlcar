@@ -9,7 +9,10 @@ class ActType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('name')->add('date', 'date', array(
+        $builder->add('name', 'text', array(
+                'label' => 'Номер акта'
+                ))
+            ->add('date', 'date', array(
                'input'  => 'datetime',
                'widget' => 'single_text'
                ))
@@ -20,7 +23,11 @@ class ActType extends AbstractType
             ->add('weight', 'integer')
             ->add('transposition', 'entity', array(
                  'class' => 'ControlcarJournalBundle:Transposition',
-                 'property' => 'name'
+                 'property' => 'name',
+                 'expanded' => true,
+                 'attr' => array(
+                    //'class' => 'hide'
+                    )
                  ))
             ->add('distance', 'integer')
             ->add('price_by_km', 'money')
@@ -28,7 +35,9 @@ class ActType extends AbstractType
             ->add('price_by_transportation', 'integer')
             ->add('departure_place', 'text')
             ->add('destination_place', 'text')
-            ->add('save', 'submit');
+            ->add('save', 'submit', array(
+                'label' => 'Сохранить'
+                ));
     }
 
     public function getName()

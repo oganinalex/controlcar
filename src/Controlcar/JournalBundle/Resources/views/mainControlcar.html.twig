@@ -5,44 +5,56 @@
     <title>{% block title %}Test Application{% endblock %}</title>
 
     {% block stylesheets %}
-        {% stylesheets 'bundles/controlcarjournal/css/*' %}
-            <link rel="stylesheet" href="{{ asset_url }}" />
-        {% endstylesheets %}
+        <link href="{{ asset('bundles/controlcarjournal/css/bootstrap.min.css') }}" rel="stylesheet" />
+        <link href="{{ asset('bundles/controlcarjournal/css/bootstrap-responsive.css') }}" rel="stylesheet" />
+        <link href="{{ asset('bundles/controlcarjournal/css/bootstrap-rowlink.css') }}" rel="stylesheet" />
     {% endblock %}
 
 
 </head>
 <body>
 
-<div class="container">
 {% block container %}
 
+<div class="container">
     {% block menu %}
-        <div class="navbar navbar-static-top navbar-inverse">
+        <div class="navbar container">
             <div class="navbar-inner">
+                <a class="brand" href="#">Car Control</a>
                 <ul class="nav">
-                    <li><a href="#">List</a></li>
-                    <li><a href="#">Add Act</a></li>
-                    <li><a href="#">Static</a></li>
+                    <li class="active"><a href="{{ path('controlcar_journal_add_act') }}">Добавить акт</a></li>
+                    <li><a href="#">Журнал</a></li>
+                    <li><a href="#">Статистика</a></li>
                 </ul>
             </div>
         </div>
-        <br/>
     {% endblock %}
 
+    <div id="wrap">
+        <div id="main" class="container clear-top">
     {% block content%}
 
     {% endblock %}
+        </div>
+    </div>
 
-{% endblock %}
+    {% block footer %}
+
+        <footer class="footer">
+            this is footer
+        </footer>
+    {% endblock %}
+
 </div>
-
-{% block footer %}
-    footer
 {% endblock %}
 
 {% block javascripts %}
-    {% javascripts '@ControlcarJournalBundle/Resources/public/js/*' %}
+    {% javascripts
+    '@ControlcarJournalBundle/Resources/public/js/jquery-1.10.2.min.js'
+    '@ControlcarJournalBundle/Resources/public/js/bootstrap.js'
+    '@ControlcarJournalBundle/Resources/public/js/bootstrap-rowlink.js'
+    '@ControlcarJournalBundle/Resources/public/js/add-form.js'
+    %}
     <script type="text/javascript" src="{{ asset_url }}"></script>
     {% endjavascripts %}
 {% endblock %}
