@@ -12,7 +12,7 @@
         </tr>
         </thead>
         <tbody>
-        {% for act in acts %}
+        {% for act in pagination %}
             <tr>
                 <td><a href="{{ path('controlcar_journal_show_act', {id:  act.id }) }}">{{ loop.index }}</a></td>
                 <td>{{ act.name }}</td>
@@ -24,5 +24,9 @@
         {% endfor %}
         </tbody>
     </table>
+
+    <div class="navigation">
+        {{ knp_pagination_render(pagination) }}
+    </div>
 
 {% endblock %}

@@ -76,7 +76,9 @@ class JournalController extends Controller
         $act->setName(null);
         $act->setDate(new \DateTime());
 
-        $form = $this->createForm(new ActType(), $act);
+        $form = $this->createForm(new ActType(), $act,  array(
+                    'action' => $this->generateUrl('controlcar_journal_add_act'),
+                    'method' => 'POST',));
         return $this->render('ControlcarJournalBundle:Journal:addForm.html.twig',
             array(
                 'form' => $form->createView()
@@ -85,10 +87,22 @@ class JournalController extends Controller
 
     public function listAction()
     {
+        $paginator  = $this->get('knp_paginator');
+
         // show all acts with pager
         $acts = $this->getDoctrine()
             ->getRepository('ControlcarJournalBundle:Act')
             ->findAll();
+
+        $pagination = $paginator->paginate(
+            $acts,
+            $this->get('request')->query->get('page', 1)/*page number*/,
+            2/*limit per page*/
+        );
+
+        // parameters to template
+        return $this->render('ControlcarJournalBundle:Journal:list.html.twig', array('pagination' => $pagination));
+
 
         return $this->render('ControlcarJournalBundle:Journal:list.html.twig',
             array('acts' => $acts));
@@ -115,15 +129,23 @@ class JournalController extends Controller
         $form = $this->createForm(new ActType(), new Act());
         $form->handleRequest($request);
 
-        if ($form->isValid())
+        if($this->getRequest()->getMethod() == 'POST')
         {
-            $act = $form->getData();
-            $em = $this->getDoctrine()->getManager();
-            $em->persist($act);
-            $em->flush();
-            return $this->redirect($this->generateUrl('controlcar_journal_show_act',
-                array('id' => $act->getId())
-            ));
+            if ($form->isValid())
+            {
+                $act = $form->getData();
+                $em = $this->getDoctrine()->getManager();
+                $em->persist($act);
+                $em->flush();
+                return $this->redirect($this->generateUrl('controlcar_journal_show_act',
+                    array('id' => $act->getId())
+                ));
+            }
+            else
+            {
+                var_dump($form->getErrors());
+                exit;
+            }
         }
 
         return $this->render('ControlcarJournalBundle:Journal:addForm.html.twig', array(

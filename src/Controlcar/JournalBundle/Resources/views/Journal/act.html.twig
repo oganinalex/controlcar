@@ -4,5 +4,8 @@
     <h1>Подробно об акте</h1>
     {% block content %}
         {{ act.name }}
+        <a href="{{ path('controlcar_dublicate_act', {id:  act.id }) }}"> <i class="icon-share"></i>Дубликат</a>
+        <a href="{{ path('controlcar_journal_edit_act', {id:  act.id }) }}"> <i class="icon-pencil"></i>Редактировать</a>
+        <a href="{{ path('controlcar_journal_delete_act', {id:  act.id }) }}"> <i class="icon-remove"></i>Удалить</a>
     {% endblock %}
 {% endblock %}

@@ -2,7 +2,7 @@
 
 {% block body %}
     {% block content %}
-        <form name="" action='' method="POST" class="form-horizontal">
+        {{ form_start(form) }}
             <div class="control-group">
                 {{ form_label(form.name, 'Номер Акта', { 'label_attr': {'class': 'control-label'} }) }}
                 <div class="controls">
@@ -55,8 +55,7 @@
                     {{ form_widget(form.distance) }}
                 </div>
             </div>
-
-            <div class="control-group">
+                <div class="control-group">
                 {{ form_label(form.price_by_km, 'Цена за 1 км.', { 'label_attr': {'class': 'control-label'} }) }}
                 <div class="controls">
                     {{ form_errors(form.price_by_km) }}
@@ -104,6 +103,7 @@
                     {{ form_widget(form.save) }}
                 </div>
             </div>
+            {{ form_rest(form) }}
 
         </form>
 

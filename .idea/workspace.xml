@@ -2,34 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="093dc894-5b54-4d04-864e-86b3df5df467" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/js/add-form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Form/ActType.php" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Form/ActType.php" />
+      <change type="DELETED" beforePath="C:\wamp\www\dev\controllcar\src\Controlcar\JournalBundle\Resources\public\css\bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\dev\controllcar\src\Controlcar\JournalBundle\Resources\public\css\bootstrap-rowlink.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\dev\controllcar\src\Controlcar\JournalBundle\Resources\public\css\main.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\dev\controllcar\src\Controlcar\JournalBundle\Resources\public\img\glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\dev\controllcar\src\Controlcar\JournalBundle\Resources\public\img\glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\dev\controllcar\src\Controlcar\JournalBundle\Resources\public\js\bootstrap-rowlink.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/JournalController.php" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/JournalController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/act.html.twig" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/act.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/addForm.html.twig" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/addForm.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/alex.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/alex.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/list.html.twig" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/list.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/mainControlcar.html.twig" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/mainControlcar.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="controllcar.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1383854528142" ignored="false" />
+    <file path="/Dummy.txt" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1384615769795" ignored="false" />
     <file path="/a.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1383165716104" ignored="false" />
-    <file path="/JournalController.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1380614595314" ignored="false" />
+    <file path="/JournalController.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1384621077719" ignored="false" />
     <file path="/routing.yml" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1380555597498" ignored="false" />
     <file path="/Act.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1380292551483" ignored="false" />
     <file path="/*.regexp" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1380616106863" ignored="false" />
     <file path="/car.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1380208211600" ignored="false" />
     <file path="/a.dummy" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1380285309799" ignored="false" />
     <file path="/a.coffee" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1380209200461" ignored="false" />
-    <file path="/ActType.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1383856234353" ignored="false" />
+    <file path="/ActType.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1384618793411" ignored="false" />
     <file path="/list.html.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1382176663230" ignored="false" />
     <file path="/Car.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1380290699368" ignored="false" />
-    <file path="/addForm.html.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1383860542269" ignored="false" />
+    <file path="/addForm.html.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1384617671211" ignored="false" />
     <file path="/act.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1380536359698" ignored="false" />
     <file path="/mainControlcar.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1381157210963" ignored="false" />
     <file path="/config.yml" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1381158336361" ignored="false" />
     <file path="/mainControlcar.html.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1383170092319" ignored="false" />
     <file path="/add-form.js" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1383863329426" ignored="false" />
+    <file path="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1384471470427" ignored="false" />
+    <file path="/act.html.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1384618291578" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +63,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JournalController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="JournalController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/JournalController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="48" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0">
+            <state line="99" column="13" selection-start="2913" selection-end="2913" vertical-scroll-proportion="0.56992084">
               <folding />
             </state>
           </provider>
@@ -61,16 +75,7 @@
       <file leaf-file-name="mainControlcar.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/mainControlcar.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1257" selection-end="1257" vertical-scroll-proportion="-29.096775">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="2" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
+            <state line="24" column="83" selection-start="853" selection-end="879" vertical-scroll-proportion="-17.032259">
               <folding />
             </state>
           </provider>
@@ -79,7 +84,7 @@
       <file leaf-file-name="act.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/act.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="14" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+            <state line="9" column="18" selection-start="499" selection-end="499" vertical-scroll-proportion="-6.387097">
               <folding />
             </state>
           </provider>
@@ -88,7 +93,7 @@
       <file leaf-file-name="list.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="65" vertical-scroll-proportion="0.0">
+            <state line="30" column="0" selection-start="1227" selection-end="1227" vertical-scroll-proportion="-21.290323">
               <folding />
             </state>
           </provider>
@@ -103,19 +108,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addForm.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/addForm.html.twig">
+      <file leaf-file-name="AppKernel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="0" selection-start="2492" selection-end="2492" vertical-scroll-proportion="-40.451614">
+            <state line="19" column="15" selection-start="811" selection-end="811" vertical-scroll-proportion="-9.387096">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add-form.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/js/add-form.js">
+      <file leaf-file-name="addForm.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/addForm.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="28" selection-start="567" selection-end="567" vertical-scroll-proportion="0.46698114">
+            <state line="3" column="23" selection-start="107" selection-end="107" vertical-scroll-proportion="-2.1290324">
               <folding />
             </state>
           </provider>
@@ -124,16 +129,7 @@
       <file leaf-file-name="ActType.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Form/ActType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="33" selection-start="925" selection-end="925" vertical-scroll-proportion="-18.451612">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="360" selection-end="389" vertical-scroll-proportion="0.0">
+            <state line="11" column="16" selection-start="276" selection-end="276" vertical-scroll-proportion="-2.2903225">
               <folding />
             </state>
           </provider>
@@ -157,22 +153,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Entity/Car.php" />
         <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Entity/Act.php" />
         <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Entity/Transposition.php" />
         <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/act.twig" />
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/act.html.twig" />
         <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/JournalController.php" />
         <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/mainControlcar.twig" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/main.css" />
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/list.html.twig" />
         <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/js/form.js" />
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Form/ActType.php" />
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/mainControlcar.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/addForm.html.twig" />
         <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/js/add-form.js" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/mainControlcar.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/act.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Form/ActType.php" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/addForm.html.twig" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/list.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/JournalController.php" />
       </list>
     </option>
   </component>
@@ -183,10 +179,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -259,6 +255,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="composer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -282,198 +310,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="JournalBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controlcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JournalBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controlcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JournalBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Journal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controlcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JournalBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controlcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JournalBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controlcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JournalBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controlcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JournalBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -517,6 +353,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -524,7 +378,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="settings.xslt" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
@@ -588,15 +442,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15368196" sideWeight="0.67001116" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15517241" sideWeight="0.67001116" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23959444" sideWeight="0.67001116" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24730603" sideWeight="0.67001116" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -687,64 +541,14 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Entity/Transposition.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="5" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="15" selection-start="105" selection-end="105" vertical-scroll-proportion="0.052009456" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="2" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="22" selection-end="23" vertical-scroll-proportion="0.026410565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/act.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/list.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="65" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
+        <state line="1" column="19" selection-start="22" selection-end="23" vertical-scroll-proportion="0.026410565" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/config/routing.yml">
@@ -754,37 +558,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/JournalController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="48" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Form/ActType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="33" selection-start="925" selection-end="925" vertical-scroll-proportion="-18.451612">
+        <state line="11" column="16" selection-start="276" selection-end="276" vertical-scroll-proportion="-2.2903225">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/mainControlcar.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1257" selection-end="1257" vertical-scroll-proportion="-29.096775">
+        <state line="24" column="83" selection-start="853" selection-end="879" vertical-scroll-proportion="-17.032259">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/act.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="18" selection-start="499" selection-end="499" vertical-scroll-proportion="-6.387097">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="26" selection-start="458" selection-end="458" vertical-scroll-proportion="0.531401">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/addForm.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2492" selection-end="2492" vertical-scroll-proportion="-40.451614">
+        <state line="3" column="23" selection-start="107" selection-end="107" vertical-scroll-proportion="-2.1290324">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/js/add-form.js">
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="567" selection-end="567" vertical-scroll-proportion="0.46698114">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.094387755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="15" selection-start="811" selection-end="811" vertical-scroll-proportion="-9.387096">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1227" selection-end="1227" vertical-scroll-proportion="-21.290323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/JournalController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="13" selection-start="2913" selection-end="2913" vertical-scroll-proportion="0.56992084">
           <folding />
         </state>
       </provider>
