@@ -38,6 +38,11 @@ class Act
     protected $weight;
 
     /**
+     * @ORM\Column(type="string", length=100)
+     */
+    protected $cargo_type;
+
+    /**
      * @ORM\Column(type="integer")
      */
     protected $transposition_id;
@@ -73,6 +78,27 @@ class Act
     protected $destination_place;
 
     /**
+     * @ORM\Column(type="datetime")
+     */
+    protected $edit_time;
+
+    /**
+     * @param mixed $edit_time
+     */
+    public function setEditTime($edit_time)
+    {
+        $this->edit_time = $edit_time;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getEditTime()
+    {
+        return $this->edit_time;
+    }
+
+    /**
      * @ORM\ManyToOne(targetEntity="Car", inversedBy="acts")
      * @ORM\JoinColumn(name="car_id", referencedColumnName="id")
      */
@@ -83,6 +109,19 @@ class Act
      * @ORM\JoinColumn(name="transposition_id", referencedColumnName="id")
      */
     protected $transposition;
+
+
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+
+        return $this;
+    }
 
     /**
      * Get id
@@ -381,6 +420,22 @@ class Act
         $this->transposition = $transposition;
     
         return $this;
+    }
+
+    /**
+     * @param mixed $cargo_type
+     */
+    public function setCargoType($cargo_type)
+    {
+        $this->cargo_type = $cargo_type;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCargoType()
+    {
+        return $this->cargo_type;
     }
 
     /**

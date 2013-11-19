@@ -33,3 +33,13 @@ controlcar_dublicate_act:
     defaults: { _controller: ControlcarJournalBundle:Journal:createDuplicateAct }
     requirements:
             id:  \d+
+
+controlcar_create_doc:
+    pattern: /create_doc/{pay}/{id}
+    defaults: { _controller: ControlcarJournalBundle:Journal:createActDocx }
+    requirements:
+            id:  \d+
+
+controlcar_parse:
+     pattern: /parse
+     defaults: { _controller: ControlcarJournalBundle:Journal:parse }

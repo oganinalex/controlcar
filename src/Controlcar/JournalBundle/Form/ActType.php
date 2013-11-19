@@ -21,6 +21,7 @@ class ActType extends AbstractType
                'property' => 'name'
                ))
             ->add('weight', 'integer')
+            ->add('cargo_type', 'text')
             ->add('transposition', 'entity', array(
                  'class' => 'ControlcarJournalBundle:Transposition',
                  'property' => 'name',

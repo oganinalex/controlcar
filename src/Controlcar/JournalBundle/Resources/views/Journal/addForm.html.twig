@@ -28,6 +28,14 @@
             </div>
 
             <div class="control-group">
+                {{ form_label(form.cargo_type, 'Тип груза', { 'label_attr': {'class': 'control-label'} }) }}
+                <div class="controls">
+                    {{ form_errors(form.cargo_type) }}
+                    {{ form_widget(form.cargo_type) }}
+                </div>
+            </div>
+
+            <div class="control-group">
                 {{ form_label(form.weight, 'Масса груза', { 'label_attr': {'class': 'control-label'} }) }}
                 <div class="controls">
                     {{ form_errors(form.weight) }}

@@ -7,5 +7,7 @@
         <a href="{{ path('controlcar_dublicate_act', {id:  act.id }) }}"> <i class="icon-share"></i>Дубликат</a>
         <a href="{{ path('controlcar_journal_edit_act', {id:  act.id }) }}"> <i class="icon-pencil"></i>Редактировать</a>
         <a href="{{ path('controlcar_journal_delete_act', {id:  act.id }) }}"> <i class="icon-remove"></i>Удалить</a>
+        <a href="{{ path('controlcar_create_doc', {id:  act.id, pay: 'act' }) }}"> <i class="icon-remove"></i>Напечатать Акт</a>
+        <a href="{{ path('controlcar_create_doc', {id:  act.id, pay: 'pay' }) }}"> <i class="icon-remove"></i>Напечатать Платежку</a>
     {% endblock %}
 {% endblock %}
