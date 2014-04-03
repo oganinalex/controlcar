@@ -42,4 +42,4 @@ controlcar_create_doc:
 
 controlcar_parse:
      pattern: /parse
-     defaults: { _controller: ControlcarJournalBundle:Journal:parse }
+     defaults: { _controller: ControlcarJournalBundle:Journal:parse  }

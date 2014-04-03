@@ -1,119 +1,132 @@
 {% extends 'ControlcarJournalBundle::mainControlcar.html.twig' %}
 
-{% block body %}
-    {% block content %}
-        {{ form_start(form) }}
-            <div class="control-group">
-                {{ form_label(form.name, 'Номер Акта', { 'label_attr': {'class': 'control-label'} }) }}
-                <div class="controls">
+{% block content %}
+    <div class="row">
+        <div class="col-md-12">
+            {{ form_start(form, {'attr':{'class':'form-horizontal'} }) }}
+            <div class="form-group">
+                {{ form_label(form.name, 'Номер Акта', { 'label_attr': {'class': 'col-sm-2 control-label' } }) }}
+                <div class="col-sm-2">
                     {{ form_errors(form.name) }}
-                    {{ form_widget(form.name) }}
+                    {{ form_widget(form.name, {'attr':{'class':'form-control'} }) }}
                 </div>
-            </div>
 
-            <div class="control-group">
-                {{ form_label(form.date, 'Дата', { 'label_attr': {'class': 'control-label'} }) }}
-                <div class="controls">
+                {{ form_label(form.date, 'Дата', { 'label_attr': {'class': 'col-sm-2 control-label'} }) }}
+                <div class="col-sm-2">
                     {{ form_errors(form.date) }}
-                    {{ form_widget(form.date) }}
+                    {{ form_widget(form.date, {'attr':{'class':'form-control'} }) }}
                 </div>
             </div>
 
-            <div class="control-group">
-                {{ form_label(form.car, 'Авто', { 'label_attr': {'class': 'control-label'} }) }}
-                <div class="controls">
+            <div class="form-group">
+                {{ form_label(form.car, 'Авто', { 'label_attr': {'class': 'col-sm-2 control-label' } }) }}
+                <div class="col-sm-2">
                     {{ form_errors(form.car) }}
-                    {{ form_widget(form.car) }}
+                    {{ form_widget(form.car, {'attr':{'class':'form-control'} }) }}
                 </div>
-            </div>
 
-            <div class="control-group">
-                {{ form_label(form.cargo_type, 'Тип груза', { 'label_attr': {'class': 'control-label'} }) }}
-                <div class="controls">
-                    {{ form_errors(form.cargo_type) }}
-                    {{ form_widget(form.cargo_type) }}
-                </div>
-            </div>
-
-            <div class="control-group">
-                {{ form_label(form.weight, 'Масса груза', { 'label_attr': {'class': 'control-label'} }) }}
-                <div class="controls">
+                {{ form_label(form.weight, 'Масса груза', { 'label_attr': {'class': 'col-sm-2 control-label'} }) }}
+                <div class="col-sm-2">
                     {{ form_errors(form.weight) }}
-                    {{ form_widget(form.weight) }}
+                    {{ form_widget(form.weight, {'attr':{'class':'form-control'} }) }}
                 </div>
             </div>
 
-            <div class="control-group">
-                {{ form_label(form.transposition, 'Тип перевозки', { 'label_attr': {'class': 'control-label'} }) }}
-                <div class="controls">
-                    {{ form_errors(form.transposition) }}
-                    <div class="btn-group" data-toggle="buttons-radio">
-                        <button type="button" value="1" class="btn btn-primary">Растояние</button>
-                        <button type="button" value="2" class="btn btn-primary">Ставка</button>
+            <div class="form-group">
+                {{ form_label(form.cargo_type, 'Тип груза', { 'label_attr': {'class': 'col-sm-2 control-label'} }) }}
+                <div class="col-sm-3">
+                    {{ form_errors(form.cargo_type) }}
+                    {{ form_widget(form.cargo_type, {'attr':{'class':'form-control'} }) }}
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+                <div class = "col-sm-2">
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-primary" id="distance">
+                            <input type="radio"/> Растояние
+                        </label>
+                        <label class="btn btn-primary" id="rate">
+                            <input type="radio"/> Ставка
+                        </label>
                     </div>
-                    {{ form_widget(form.transposition) }}
+                    <div style="margin-top: 50px; text-align: center">
+                        <h3><span id="summ"></span></h3>
+                    </div>
+
+                    {{ form_widget(form.transposition, {'attr':{'class':'hide'} }) }}
+                    {{ form_errors(form.transposition) }}
                 </div>
+
+                <div class = "col-sm-5">
+                    <div class="panel panel-info distance">
+                        <div class="panel-heading">Растояние</div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                {{ form_label(form.distance, 'Растояние', { 'label_attr': {'class': 'col-sm-4 control-label'} }) }}
+                                <div class="col-sm-6">
+                                    {{ form_errors(form.distance) }}
+                                    {{ form_widget(form.distance, {'attr':{'class':'form-control'} }) }}
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                {{ form_label(form.price_by_km, 'Цена за 1 км.', { 'label_attr': {'class': 'col-sm-4 control-label'} }) }}
+                                <div class="col-sm-6">
+                                   {{ form_errors(form.price_by_km) }}
+                                   {{ form_widget(form.price_by_km, {'attr':{'class':'form-control'} }) }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary rate">
+                        <div class="panel-heading">Ставка</div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                {{ form_label(form.count_transportation, 'Количество поездок', { 'label_attr': {'class': 'col-sm-4 control-label'} }) }}
+                                <div class="col-sm-6">
+                                    {{ form_errors(form.count_transportation) }}
+                                    {{ form_widget(form.count_transportation, {'attr':{'class':'form-control'} }) }}
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                {{ form_label(form.price_by_transportation, 'Цена за поездку', { 'label_attr': {'class': 'col-sm-4 control-label'} }) }}
+                                <div class="col-sm-6">
+                                    {{ form_errors(form.price_by_transportation) }}
+                                    {{ form_widget(form.price_by_transportation, {'attr':{'class':'form-control'} }) }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
             </div>
 
-            <div class="panel panel-info">
-            <div class="control-group">
-                {{ form_label(form.distance, 'Растояние', { 'label_attr': {'class': 'control-label'} }) }}
-                <div class="controls">
-                    {{ form_errors(form.distance) }}
-                    {{ form_widget(form.distance) }}
-                </div>
-            </div>
-                <div class="control-group">
-                {{ form_label(form.price_by_km, 'Цена за 1 км.', { 'label_attr': {'class': 'control-label'} }) }}
-                <div class="controls">
-                    {{ form_errors(form.price_by_km) }}
-                    {{ form_widget(form.price_by_km) }}
-                </div>
-            </div>
-            </div>
-
-            <div class="panel panel-primary">
-            <div class="control-group">
-                {{ form_label(form.count_transportation, 'Количество поездок', { 'label_attr': {'class': 'control-label'} }) }}
-                <div class="controls">
-                    {{ form_errors(form.count_transportation) }}
-                    {{ form_widget(form.count_transportation) }}
-                </div>
-            </div>
-
-            <div class="control-group">
-                {{ form_label(form.price_by_transportation, 'Цена за поездку', { 'label_attr': {'class': 'control-label'} }) }}
-                <div class="controls">
-                    {{ form_errors(form.price_by_transportation) }}
-                    {{ form_widget(form.price_by_transportation) }}
-                </div>
-            </div>
-            </div>
-
-            <div class="control-group">
-                {{ form_label(form.departure_place, 'Место отправки', { 'label_attr': {'class': 'control-label'} }) }}
-                <div class="controls">
+            <div class="form-group">
+                {{ form_label(form.departure_place, 'Место отправки', { 'label_attr': {'class': 'col-md-2 control-label'} }) }}
+                <div class="col-xs-5">
                     {{ form_errors(form.departure_place) }}
-                    {{ form_widget(form.departure_place) }}
+                    {{ form_widget(form.departure_place, {'attr':{'class':'form-control'} }) }}
                 </div>
             </div>
 
-            <div class="control-group">
-                {{ form_label(form.destination_place, 'Место назначения', { 'label_attr': {'class': 'control-label'} }) }}
-                <div class="controls">
+            <div class="form-group">
+                {{ form_label(form.destination_place, 'Место назначения', { 'label_attr': {'class': 'col-md-2 control-label'} }) }}
+                <div class="col-xs-5">
                     {{ form_errors(form.destination_place) }}
-                    {{ form_widget(form.destination_place) }}
+                    {{ form_widget(form.destination_place, {'attr':{'class':'form-control'} }) }}
                 </div>
             </div>
 
-            <div class="control-group">
-                <div class="controls">
-                    {{ form_widget(form.save) }}
+            <div class="form-group">
+                <div class="col-sm-2 col-sm-offset-3">
+                    {{ form_widget(form.save, {'attr':{'class':'btn btn-primary btn-lg'} }) }}
                 </div>
             </div>
-            {{ form_rest(form) }}
 
-        </form>
+            </form>
+        </div>
+    </div>
 
-    {% endblock %}
 {% endblock %}

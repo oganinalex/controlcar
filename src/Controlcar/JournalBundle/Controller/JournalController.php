@@ -266,7 +266,7 @@ class JournalController extends Controller
             $act->setName($row[2]);
             $act->setDate(\DateTime::createFromFormat('Y-m-d', $row[3]));
             $act->setWeight($row[4]);
-            $act->setCargoType($row[5]);
+            $act->setCargoType(mb_convert_encoding($row[5], 'UTF-8', 'cp1251'));
             $act->setTransposition($this->getDoctrine()
                 ->getRepository('ControlcarJournalBundle:Transposition')
                 ->find($row[6]));

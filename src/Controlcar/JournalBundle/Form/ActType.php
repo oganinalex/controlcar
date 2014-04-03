@@ -31,7 +31,9 @@ class ActType extends AbstractType
                     )
                  ))
             ->add('distance', 'integer')
-            ->add('price_by_km', 'money')
+            ->add('price_by_km', 'money', array(
+                                          'currency' => 'UAH'
+                                          ))
             ->add('count_transportation', 'integer')
             ->add('price_by_transportation', 'integer')
             ->add('departure_place', 'text')
