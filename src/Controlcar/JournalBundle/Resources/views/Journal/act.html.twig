@@ -1,13 +1,172 @@
-{% extends '::base.html.twig' %}
+{% extends 'ControlcarJournalBundle::mainControlcar.html.twig' %}
 
 {% block body %}
     <h1>Подробно об акте</h1>
     {% block content %}
-        {{ act.name }}
-        <a href="{{ path('controlcar_dublicate_act', {id:  act.id }) }}"> <i class="icon-share"></i>Дубликат</a>
-        <a href="{{ path('controlcar_journal_edit_act', {id:  act.id }) }}"> <i class="icon-pencil"></i>Редактировать</a>
-        <a href="{{ path('controlcar_journal_delete_act', {id:  act.id }) }}"> <i class="icon-remove"></i>Удалить</a>
-        <a href="{{ path('controlcar_create_doc', {id:  act.id, pay: 'act' }) }}"> <i class="icon-remove"></i>Напечатать Акт</a>
-        <a href="{{ path('controlcar_create_doc', {id:  act.id, pay: 'pay' }) }}"> <i class="icon-remove"></i>Напечатать Платежку</a>
+
+            <div class="row">
+
+                <div class="page-header">
+                    <h1>Акт № {{ act.name }} <small>от {{ act.date|date("m.d.Y") }}
+                            {{ act.DeparturePlace }} <span class="glyphicon glyphicon-arrow-right"></span> {{ act.DestinationPlace }}</small></h1>
+                </div>
+
+                <div class="col-md-9">
+
+                    <div class="row jumbotron">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h3>Дата:</h3>
+                            </div>
+                            <div class="col-md-3">
+                                <h3><span class="label label-default">{{ act.date|date("d.m.Y") }}</span></h3>
+                            </div>
+                            <div class="col-md-3">
+                                <h3>Авто:</h3>
+                            </div>
+                            <div class="col-md-3">
+                                <h3><span class="label label-default">{{ act.car.name }}</span></h3>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h3>Масса груза: </h3>
+                            </div>
+                            <div class="col-md-3">
+                                <h3><span class="label label-default">{{ act.weight }}</span> кг</h3>
+                            </div>
+                            <div class="col-md-3">
+                                <h3>Тип груза:</h3>
+                            </div>
+                            <div class="col-md-3">
+                                <h3><span class="label label-default">{{ act.CargoType}}</span></h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                            {% if act.transposition.id == 1 %}
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">Растояние</div>
+                                    <div class="panel-body">
+                                        <div class="col-md-3">
+                                            <h3>Сума: {{ summ }} грн.</h3>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <h4>Растояние: </h4>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <h4><span class="label label-default">{{ act.Distance }}</span></h4>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <h4>Цена за км:</h4>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <h4><span class="label label-default">{{ act.PriceByKm}}</span> грн.</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% else %}
+                                <div class="panel panel-success">
+                                    <div class="panel-heading">Ставка</div>
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <h3>Сума: {{ summ }} грн.</h3>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <h4>Количество поездок: </h4>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <h4><span class="label label-default">{{ act.CountTransportation }}</span></h4>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <h4>Цена за поездку:</h4>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <h4><span class="label label-default">{{ act.PriceByTransportation }}</span> грн.</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}
+                    </div>
+
+                    <div class="row">
+                            <div class="col-md-5">
+                                <h3><span class="glyphicon glyphicon-home"></span> {{ act.DeparturePlace }}</h3>
+                            </div>
+                            <div class="col-md-2">
+                                <h3><span class="glyphicon glyphicon-arrow-right"></span></h3>
+                            </div>
+                            <div class="col-md-5">
+                                <h3><span class="glyphicon glyphicon-home"></span> {{ act.DestinationPlace }}</h3>
+                            </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-2 offset1">
+                    <p>
+                        <a href="{{ path('controlcar_dublicate_act', {id:  act.id }) }}" class="btn btn-primary btn-lg">
+                            <span class="glyphicon glyphicon-plus"></span> Дубликат
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="{{ path('controlcar_journal_edit_act', {id:  act.id }) }}" class="btn btn-warning btn-lg">
+                            <span class="glyphicon glyphicon-pencil"></span> Редактировать
+                        </a>
+                    </p>
+
+                    <p>
+                        <button data-toggle="modal" data-target=".bs-example-modal-sm" class="btn btn-danger btn-lg">
+                            <span class="glyphicon glyphicon-trash"></span> Удалить
+                        </button>
+                    </p>
+
+                    <p>
+                        <a href="{{ path('controlcar_create_doc', {id:  act.id, pay: 'act' }) }}" class="btn btn-info btn-lg">
+                            <span class="glyphicon glyphicon-print"></span> Напечатать акт
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="{{ path('controlcar_create_doc', {id:  act.id, pay: 'pay' }) }}" class="btn btn-info btn-lg">
+                            <span class="glyphicon glyphicon-print"></span> Напечатать платежку
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+
+        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Удаление</h4>
+                    </div>
+                    <div class="modal-body">
+                        Удалить Акт № {{ act.name }} <small>от {{ act.date|date("d.m.Y") }}
+                            {{ act.DeparturePlace }} <span class="glyphicon glyphicon-arrow-right"></span> {{ act.DestinationPlace }}</small>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                        <a href="{{ path('controlcar_journal_delete_act', {id:  act.id }) }}" type="button" class="btn btn-danger">Удалить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     {% endblock %}
 {% endblock %}

@@ -97,7 +97,7 @@ class JournalController extends Controller
                 ->getRepository('ControlcarJournalBundle:Act')
                 ->findAll(),
             $this->get('request')->query->get('page', 1),
-            5
+            20
         );
 
         // parameters to template
@@ -107,6 +107,9 @@ class JournalController extends Controller
 
     public function showActAction($id)
     {
+        /**
+         * @var $act \Controlcar\JournalBundle\Entity\Act
+         */
         $act = $this->getDoctrine()
             ->getRepository('ControlcarJournalBundle:Act')
             ->find($id);
@@ -115,9 +118,19 @@ class JournalController extends Controller
         {
             return $this->redirect($this->generateUrl('controlcar_404'));
         }
+        $summ = 0;
 
-        return $this->render('ControlcarJournalBundle:Journal:act.html.twig',
-            array('act' => $act)
+        if($act->getTransposition()->getId() == 1)
+        {
+            $summ = $act->getPriceByKm() * $act->getDistance();
+        }
+        else
+        {
+            $summ = $act->getCountTransportation() * $act->getPriceByTransportation();
+        }
+
+        return $this->render('ControlcarJournalBundle:Journal:act.html.twig', array('act'  => $act,
+                                                                                    'summ' => $summ)
         );
     }
 

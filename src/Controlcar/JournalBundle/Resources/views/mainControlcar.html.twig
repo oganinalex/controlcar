@@ -6,58 +6,77 @@
 
     {% block stylesheets %}
         <link href="{{ asset('bundles/controlcarjournal/css/bootstrap.min.css') }}" rel="stylesheet" />
-        <link href="{{ asset('bundles/controlcarjournal/css/bootstrap-responsive.css') }}" rel="stylesheet" />
-        <link href="{{ asset('bundles/controlcarjournal/css/bootstrap-rowlink.css') }}" rel="stylesheet" />
         <link href="{{ asset('bundles/controlcarjournal/css/main.css') }}" rel="stylesheet" />
+        <link href="{{ asset('bundles/controlcarjournal/css/sticky_footer.css') }}" rel="stylesheet" />
     {% endblock %}
 
 
 </head>
 <body>
-
-<div class="container">
-{% block container %}
-
     {% block menu %}
-        <div class="navbar container">
-            <div class="navbar-inner">
-                <a class="brand" href="#">Car Control</a>
-                <ul class="nav">
-                    <li class="active"><a href="{{ path('controlcar_journal_add_act') }}">Добавить акт</a></li>
-                    <li><a href="#">Журнал</a></li>
-                    <li><a href="#">Статистика</a></li>
-                </ul>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="{{ url('controlcar_journal_list') }}">ControlCar</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="{{ url('controlcar_journal_add_act') }}">Добавить Акт</a></li>
+                        <li><a href="{{  url('controlcar_journal_list') }}">Журнал</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Автомобили<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Список автомобилей</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Добавить Авто</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Строка поиска">
+                        </div>
+                        <button type="submit" class="btn btn-default">Найти</button>
+                    </form>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </div>
+        </nav>
+    {% endblock %}
+
+    {% block container %}
+        <div id="wrap">
+            <div id="main" class="container clear-top">
+            {% block content%}
+
+            {% endblock %}
             </div>
         </div>
     {% endblock %}
 
-    <div id="wrap">
-        <div id="main" class="container clear-top">
-        {% block content%}
-
+<div id="footer">
+    <div class="container">
+        {% block footer %}
+                this is footer
         {% endblock %}
-        </div>
     </div>
-
-    {% block footer %}
-
-        <footer class="footer">
-            this is footer
-        </footer>
-    {% endblock %}
-
-{% endblock %}
 </div>
 
 {% block javascripts %}
-    {% javascripts
-    '@ControlcarJournalBundle/Resources/public/js/jquery-1.10.2.min.js'
-    '@ControlcarJournalBundle/Resources/public/js/bootstrap.js'
-    '@ControlcarJournalBundle/Resources/public/js/rowlink.js'
-    '@ControlcarJournalBundle/Resources/public/js/add-form.js'
-    %}
-    <script type="text/javascript" src="{{ asset_url }}"></script>
-    {% endjavascripts %}
+    <script src="{{ asset('bundles/controlcarjournal/js/jquery-1.11.0.min.js') }}"></script>
+    <script src="{{ asset('bundles/controlcarjournal/js/bootstrap.js') }}"></script>
+    <script src="{{ asset('bundles/controlcarjournal/js/rowlink.js') }}"></script>
+    <script src="{{ asset('bundles/controlcarjournal/js/add-form.js') }}"></script>
 {% endblock %}
 
 </body>
