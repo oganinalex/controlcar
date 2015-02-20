@@ -43,3 +43,11 @@ controlcar_create_doc:
 controlcar_parse:
      pattern: /parse
      defaults: { _controller: ControlcarJournalBundle:Journal:parse  }
+
+controlcar_get_suggestion:
+     pattern: /suggestion
+     defaults: { _controller: ControlcarJournalBundle:Journal:getSuggestion  }
+
+controlcar_get_suggestion:
+    pattern: /search
+    defaults: { _controller: ControlcarJournalBundle:Journal:getSearchData  }

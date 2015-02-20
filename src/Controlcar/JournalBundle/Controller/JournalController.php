@@ -11,9 +11,11 @@ namespace Controlcar\JournalBundle\Controller;
 
 use Controlcar\JournalBundle\Entity\Car;
 use Controlcar\JournalBundle\Entity\Transposition;
+use Doctrine\Tests\Common\Annotations\Null;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Controlcar\JournalBundle\Form\ActType;
 use Controlcar\JournalBundle\Entity\Act;
 use Controlcar\JournalBundle\Controller\DoxgenerationController;
@@ -88,21 +90,43 @@ class JournalController extends Controller
             ));
     }
 
-    public function listAction()
+    public function listAction(Request $request)
     {
-        $paginator  = $this->get('knp_paginator');
+        $queryParam = $request->query->get('query');
+        $acts = null;
+        $renderTemplate = 'ControlcarJournalBundle:Journal:list.html.twig';
 
-        $acts = $paginator->paginate(
-            $this->getDoctrine()
+        if(($queryParam or $queryParam === '') and !$request->query->get('page'))
+        {
+            $renderTemplate = 'ControlcarJournalBundle:Journal:searchList.html.twig';
+        }
+
+        if($queryParam)
+        {
+            $result_acts = $this->getSearchData($queryParam);
+        }
+        else
+        {
+            $result_acts = $this->getDoctrine()
                 ->getRepository('ControlcarJournalBundle:Act')
-                ->findAll(),
-            $this->get('request')->query->get('page', 1),
-            20
+                ->findAll();
+        }
+
+        $paginator  = $this->get('knp_paginator');
+        $actsCount =  count($result_acts);
+        $actOnPage = 20;
+        $currentPage = $request->query->get('page', 1);
+        $pageCoeficient = $actOnPage * ($currentPage-1);
+        $acts = $paginator->paginate(
+            $result_acts,
+            $currentPage,
+            $actOnPage
+//            $actOnPage
         );
 
-        // parameters to template
-        return $this->render('ControlcarJournalBundle:Journal:list.html.twig', array('acts' => $acts));
-
+        return $this->render($renderTemplate, array('acts' => $acts,
+                                                    'actsCount' => $actsCount,
+                                                    'pageCoeficient' => $pageCoeficient));
     }
 
     public function showActAction($id)
@@ -161,6 +185,43 @@ class JournalController extends Controller
         return $this->render('ControlcarJournalBundle:Journal:addForm.html.twig', array(
             'form' => $form->createView()
         ));
+    }
+
+    private function getSearchData($queryParam)
+    {
+        $query = $this->getDoctrine()->getRepository('ControlcarJournalBundle:Act')->createQueryBuilder('a');
+        return $query->where(
+                $query->expr()->orx(
+                    $query->expr()->like('a.departure_place', ':searchQuery'),
+                    $query->expr()->like('a.destination_place', ':searchQuery'),
+                    $query->expr()->like('a.cargo_type', ':searchQuery')
+                ))
+            ->setParameter('searchQuery', '%'.$queryParam.'%')
+            ->getQuery()
+            ->getResult();
+    }
+
+    public function getSuggestionAction(Request $request)
+    {
+        $queryParam = $request->query->get('query');
+
+        $query = $this->getDoctrine()->getRepository('ControlcarJournalBundle:Act')->createQueryBuilder('a');
+
+        $data = $query->select('a.departure_place, a.destination_place, a.cargo_type')
+            ->where(
+                    $query->expr()->orx(
+                        $query->expr()->like('a.departure_place', ':searchQuery'),
+                        $query->expr()->like('a.destination_place', ':searchQuery'),
+                        $query->expr()->like('a.cargo_type', ':searchQuery')
+                    ))
+            ->setParameter('searchQuery', '%'.$queryParam.'%')
+            ->getQuery()
+            ->getResult();
+        var_dump($data);exit;
+
+        $response = new JsonResponse();
+        $response->setData($data);
+        return $response;
     }
 
     public function createActDocxAction($pay, $id)
@@ -247,10 +308,9 @@ class JournalController extends Controller
     {
         if($act->getTranspositionId() === 1)
         {
-            return ($act->getPriceByKm() * $act->getDistance());
+            return ($act->getCountTransportation() * $act->getPriceByTransportation());
         }
-
-        return ($act->getCountTransportation() * $act->getPriceByTransportation());
+        return ($act->getPriceByKm() * $act->getDistance());
     }
 
     private function generateDocxResponce($dox_template, $act)

@@ -3,6 +3,12 @@
 use Symfony\Component\HttpKernel\Kernel;
 use Symfony\Component\Config\Loader\LoaderInterface;
 
+function vd($param)
+{
+    var_dump($param);
+    exit;
+}
+
 class AppKernel extends Kernel
 {
     public function registerBundles()

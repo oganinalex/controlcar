@@ -2,46 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="093dc894-5b54-4d04-864e-86b3df5df467" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/sticky_footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/searchList.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/Paginator/sliding.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Form/ActType.php" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Form/ActType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/JournalController.php" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/JournalController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/act.html.twig" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/act.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/addForm.html.twig" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/addForm.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/list.html.twig" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/list.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/mainControlcar.html.twig" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/mainControlcar.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/config/routing.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="controllcar.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1397504811902" ignored="false" />
+    <file path="/Dummy.txt" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1424466133206" ignored="false" />
     <file path="/a.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1383165716104" ignored="false" />
-    <file path="/JournalController.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1397427251750" ignored="false" />
-    <file path="/routing.yml" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1384895270889" ignored="false" />
+    <file path="/JournalController.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1400920772580" ignored="false" />
+    <file path="/routing.yml" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1398285156940" ignored="false" />
     <file path="/Act.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1384897138780" ignored="false" />
     <file path="/*.regexp" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1380616106863" ignored="false" />
     <file path="/car.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1380208211600" ignored="false" />
-    <file path="/a.dummy" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1384678789936" ignored="false" />
+    <file path="/a.dummy" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1400884814179" ignored="false" />
     <file path="/a.coffee" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1380209200461" ignored="false" />
-    <file path="/ActType.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1388834353166" ignored="false" />
-    <file path="/list.html.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1384624673143" ignored="false" />
+    <file path="/ActType.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1400922891614" ignored="false" />
+    <file path="/list.html.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1400882742162" ignored="false" />
     <file path="/Car.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1380290699368" ignored="false" />
-    <file path="/addForm.html.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1391853833884" ignored="false" />
+    <file path="/addForm.html.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1397678846641" ignored="false" />
     <file path="/act.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1380536359698" ignored="false" />
     <file path="/mainControlcar.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1381157210963" ignored="false" />
     <file path="/config.yml" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1381158336361" ignored="false" />
-    <file path="/mainControlcar.html.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1397425478398" ignored="false" />
+    <file path="/mainControlcar.html.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1398281218343" ignored="false" />
     <file path="/add-form.js" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1392548361739" ignored="false" />
-    <file path="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1384471470427" ignored="false" />
-    <file path="/act.html.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1397427284972" ignored="false" />
+    <file path="/act.html.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1397508675752" ignored="false" />
     <file path="/DoxgenerationController.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1384627565898" ignored="false" />
     <file path="/main.css" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1387712592099" ignored="false" />
+    <file path="/livesearch.js" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1398720137204" ignored="false" />
+    <file path="/AppKernel.php" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1400882911539" ignored="false" />
+    <file path="/searchList.html.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1400885766571" ignored="false" />
+    <file path="/config_dev.yml" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1400886672769" ignored="false" />
+    <file path="/sliding.html.twig" changelist="093dc894-5b54-4d04-864e-86b3df5df467" time="1400887168438" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,61 +65,7 @@
       <file leaf-file-name="JournalController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/JournalController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="50" selection-start="3753" selection-end="3753" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Act.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Entity/Act.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="28" selection-start="1981" selection-end="1995" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DoxgenerationController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/DoxgenerationController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="2046" selection-end="2046" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="26" selection-start="243" selection-end="269" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainControlcar.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/mainControlcar.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="27" selection-start="3064" selection-end="3064" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="act.html.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/act.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="58" selection-start="5064" selection-end="5064" vertical-scroll-proportion="1.2035624">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sticky_footer.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/sticky_footer.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="17" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+            <state line="48" column="44" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,46 +74,17 @@
       <file leaf-file-name="addForm.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/addForm.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="65" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1391855394572" expanded="true" signature="107:6515" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="139:6504" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="250:883" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="403:560" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="707:864" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="921:1558" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="1067:1222" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="1378:1539" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="1596:1941" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="1753:1922" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="1979:5424" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="2013:5405" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="2054:2789" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="2120:2466" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="2190:2283" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="2349:2439" placeholder="..." />
-                <marker date="1391855394572" expanded="false" signature="2500:2536" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="2537:2621" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="2831:5378" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="2891:4052" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="3007:4025" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="3060:3495" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="3247:3460" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="3548:3994" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="3742:3959" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="4111:5355" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="4224:5328" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="4277:4757" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="4485:4722" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="4811:5297" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="5019:5262" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="5462:5827" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="5629:5808" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="5865:6238" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="6036:6219" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="6276:6468" placeholder="..." />
-                <marker date="1391855394572" expanded="true" signature="6331:6449" placeholder="..." />
-              </folding>
+            <state line="128" column="0" selection-start="6504" selection-end="6504" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActType.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Form/ActType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="44" selection-start="1764" selection-end="1764" vertical-scroll-proportion="0.5285714">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -189,22 +107,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/mainControlcar.twig" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/js/form.js" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/list.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/DoxgenerationController.php" />
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/main.css" />
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Form/ActType.php" />
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/addForm.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/js/add-form.js" />
         <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/sticky_footer.css" />
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/mainControlcar.html.twig" />
         <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Entity/Act.php" />
-        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/JournalController.php" />
         <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/act.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/js/typeahead/typeheadBootstrap.js" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/mainControlcar.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/searchList.twig" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/js/livesearch.js" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/list.html.twig" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/searchList.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/config_dev.yml" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/Paginator/sliding.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/JournalController.php" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Form/ActType.php" />
+        <option value="$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/addForm.html.twig" />
       </list>
     </option>
   </component>
@@ -215,10 +133,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1918" />
-    <option name="height" value="1038" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -291,6 +209,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bundles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,70 +378,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controlcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JournalBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controlcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JournalBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -520,7 +392,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controlcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JournalBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -601,15 +517,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1325431" sideWeight="0.6708286" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1307364" sideWeight="0.67112595" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1950431" sideWeight="0.6708286" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21184632" sideWeight="0.67112595" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -618,7 +534,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -701,132 +617,88 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.3188406" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="312" selection-end="312" vertical-scroll-proportion="0.2657005" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.10628019" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="335" selection-end="335" vertical-scroll-proportion="0.2657005" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="293" selection-end="293" vertical-scroll-proportion="0.29227054" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="22" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" />
+        <state line="4" column="9" selection-start="86" selection-end="87" vertical-scroll-proportion="0.10401891" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/list.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="32" selection-start="1173" selection-end="1194" vertical-scroll-proportion="0.0" />
+        <state line="7" column="0" selection-start="241" selection-end="241" vertical-scroll-proportion="0.17721519" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/addForm.html.twig">
+    <entry file="file://$PROJECT_DIR$/vendor/knplabs/knp-components/src/Knp/Component/Pager/Pagination/SlidingPagination.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="65" vertical-scroll-proportion="-0.0">
-          <folding>
-            <marker date="1391855394572" expanded="true" signature="107:6515" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="139:6504" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="250:883" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="403:560" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="707:864" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="921:1558" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="1067:1222" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="1378:1539" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="1596:1941" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="1753:1922" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="1979:5424" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="2013:5405" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="2054:2789" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="2120:2466" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="2190:2283" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="2349:2439" placeholder="..." />
-            <marker date="1391855394572" expanded="false" signature="2500:2536" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="2537:2621" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="2831:5378" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="2891:4052" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="3007:4025" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="3060:3495" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="3247:3460" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="3548:3994" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="3742:3959" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="4111:5355" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="4224:5328" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="4277:4757" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="4485:4722" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="4811:5297" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="5019:5262" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="5462:5827" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="5629:5808" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="5865:6238" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="6036:6219" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="6276:6468" placeholder="..." />
-            <marker date="1391855394572" expanded="true" signature="6331:6449" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.8343558" />
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/phrase.rnc">
+    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/Paginator/sliding.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="308" column="23" selection-start="5646" selection-end="5646" vertical-scroll-proportion="0.33333334" />
+        <state line="2" column="22" selection-start="77" selection-end="79" vertical-scroll-proportion="-1.4193548" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/main.css">
+    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/searchList.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="57" selection-end="57" vertical-scroll-proportion="0.10628019" />
+        <state line="25" column="57" selection-start="1023" selection-end="1023" vertical-scroll-proportion="-13.612904" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/css/sticky_footer.css">
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="36" column="13" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php">
+    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/DoxgenerationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="236" column="20" selection-start="5969" selection-end="5969" vertical-scroll-proportion="0.34566328" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Entity/Act.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="28" selection-start="1981" selection-end="1995" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/JournalController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="50" selection-start="3753" selection-end="3753" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/mainControlcar.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="27" selection-start="3064" selection-end="3064" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="34" column="30" selection-start="1798" selection-end="1808" vertical-scroll-proportion="-24.129032" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/act.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="58" selection-start="5064" selection-end="5064" vertical-scroll-proportion="1.2035624">
+        <state line="170" column="0" selection-start="9073" selection-end="9073" vertical-scroll-proportion="-20.903225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/addForm.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="0" selection-start="6504" selection-end="6504" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/Journal/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="108" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/public/js/livesearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="12" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Resources/views/mainControlcar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="0" selection-start="4559" selection-end="4559" vertical-scroll-proportion="0.38666666" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Entity/Car.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="7" selection-start="878" selection-end="878" vertical-scroll-proportion="0.21002387" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Entity/Act.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="440" column="7" selection-start="7590" selection-end="7590" vertical-scroll-proportion="0.6062052" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Controller/JournalController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="44" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controlcar/JournalBundle/Form/ActType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="44" selection-start="1764" selection-end="1764" vertical-scroll-proportion="0.5285714">
           <folding />
         </state>
       </provider>

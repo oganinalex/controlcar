@@ -125,8 +125,22 @@
                 </div>
             </div>
 
-            </form>
+            {{ form_end(form) }}
+
         </div>
     </div>
 
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+
+    <script>
+        $('#Act_date').datepicker({
+            format: "yyyy-mm-dd",
+            todayBtn: true,
+            language: "ru",
+            todayHighlight: true
+        });
+    </script>
 {% endblock %}
